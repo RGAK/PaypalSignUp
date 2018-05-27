@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+  <test name="Test">
+    <classes>
+      <class name="testcases.TC007_LoginAndMergeLead"/>
+      <class name="testcases.TC006_LoginAndDuplicateLead"/>
+      <class name="testcases.TC002_LoginForFailure"/>
+      <class name="testcases.TC004_LoginAndEditLead"/>
+      <class name="testcases.TC001_LoginAndLogout"/>
+      <class name="testcases.TC003_LoginAndCreateLead"/>
+      <class name="testcases.TC005_LoginAndDeleteLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Regression Suite -->
